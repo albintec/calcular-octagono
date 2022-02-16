@@ -45,35 +45,6 @@
 
 
 
-    <!-- <div class="cuerpo">
-        <h1>Calcular Área Octágono Regular</h1> 
-        <form class="formulario" action="index.php" method="get">
-            <label for="">Lados:</label>
-            <input type="text" name="num1" id="">
-            <label for="">Apotema:</label>
-            <input type="text" name="num2" id="">
-            <button type="submit">Calcular</button> <br><a href="./index.php"> Reintentar</a> <br>
-           <br>
-            <?php
-            if ($_GET) {
-                $num1 = $_GET['num1'];
-                $num2 = $_GET['num2'];
-                
-                //
-                $suma = pow($num1, 2) + pow($num2, 2);
-                $resultado = sqrt($suma);
-                echo "El valor de la Hipotenusa es " . $resultado;
-            }
-            ?> <br>
-            <br>
-<img src="./img/formula.png" alt="">
-        </form> -->
-
-        
-
-
-
-    </div>
 </body>
 
 </html>
